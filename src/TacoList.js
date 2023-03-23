@@ -8,7 +8,7 @@ export default function TacoList({ tacos, toggleTaco }) {
   return (
    
    sortedTacos.map(taco => {
-    return <Taco key={taco.id} toggleTaco={toggleTaco} taco={taco} />
+    return <Taco style={{marginTop: "50px", backgroundColor: "#F6EDDB"}} key={taco.id} toggleTaco={toggleTaco} taco={taco} />
    })
   )
 }
